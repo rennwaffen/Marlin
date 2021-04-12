@@ -74,8 +74,8 @@
   #define HEATER_0_PIN                     P2_07
 #endif
 #if HOTENDS == 1
-  #ifndef FAN1_PIN
-    #define FAN1_PIN                       P2_04
+  #ifndef HEATER_CHAMBER_PIN
+    #define HEATER_CHAMBER_PIN             P2_04
   #endif
 #else
   #ifndef HEATER_1_PIN
